@@ -1,0 +1,31 @@
+body{
+    margin: 0px;
+}
+.container{
+    display: flex;
+}
+
+.left-box{
+    background: url('../images/sarah.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;  
+    width: 33%;
+    height: 800px;
+}
+
+.logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: grey;
+    width: auto;
+    height: 6rem;
+    opacity: 0.5;
+    font-size: 4rem;
+    font-weight: 800;
+    font-style: italic;
+}
+.right-box{
+    width: 60%;
+}
+
