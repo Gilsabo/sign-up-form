@@ -1,5 +1,7 @@
 body{
     margin: 0px;
+    font-family: sonoFont;
+    
     
 }
 .container{
@@ -21,7 +23,7 @@ body{
 
 .text, .text1{
     font-size: 1.6rem;
-    line-height: 1.9rem;
+    line-height: 2.9rem;
     font-weight: 600;
     margin-left: 3rem;
 }
@@ -42,7 +44,7 @@ body{
     width: auto;
     height: 6rem;
     opacity: 0.5;
-    margin-top: 600px;
+    margin-top: 700px;
     font-size: 3rem;
     font-weight: 800;
     font-style: italic;
@@ -128,5 +130,10 @@ a{
     color: #596D48;
     text-decoration: none;
     font-size: 1rem;
+}
+
+@font-face {
+    font-family: sonoFont;
+    src: url(/repos/sign-up-form/Sono/static/Sono/Sono-ExtraLight.ttf);
 }
 
