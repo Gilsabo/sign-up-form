@@ -78,9 +78,13 @@ input{
     height: 1.8rem;
     border-radius: 5px;
 	border: 0.5px rgb(229, 231, 235) solid;
-	
-   
-    
+}
+
+
+
+input:valid{
+    border: 1px rgb(29, 78, 216) solid;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
 
 .button-box{
@@ -92,6 +96,7 @@ input{
 
 .question{
     margin-top: 2rem;
+    padding-bottom: 3rem;
 }
 button, .question{
     margin-left: 3rem;
