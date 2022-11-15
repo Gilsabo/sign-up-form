@@ -81,8 +81,8 @@ input{
 }
 
 
-
-input:valid{
+input:focus{
+    outline: none !important;
     border: 1px rgb(29, 78, 216) solid;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
 }
