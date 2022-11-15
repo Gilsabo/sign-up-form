@@ -1,16 +1,37 @@
 body{
     margin: 0px;
+    
 }
 .container{
     display: flex;
+    
 }
 
 .left-box{
     background: url('../images/sarah.jpg') ;
     background-repeat: no-repeat;
     background-size: cover;  
-    width: 33%;
-    height: 800px;
+    width: 33.33%;
+    height: auto;
+}
+.text{
+    margin-bottom: 2rem;
+    
+}
+
+.text, .text1{
+    font-size: 1.6rem;
+    line-height: 1.9rem;
+    font-weight: 600;
+    margin-left: 3rem;
+}
+
+.text1{
+    margin-top: 2rem;
+}
+
+.form{
+    margin-top: 3rem;
 }
 
 .logo{
@@ -21,11 +42,75 @@ body{
     width: auto;
     height: 6rem;
     opacity: 0.5;
-    font-size: 4rem;
+    margin-top: 600px;
+    font-size: 3rem;
     font-weight: 800;
     font-style: italic;
 }
 .right-box{
-    width: 60%;
+    width: 66.66%;   
+     
+}
+.header{
+    background-color: rgb(249, 250, 251);
+    width: 100%;
+    padding-top: 10.2rem;
+    box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
+    padding-bottom: 2rem;
+   
+}
+
+form{
+    color:rgb(87, 94, 105);
+    font-size: 0.8rem;
+    
+}
+
+.name-box, .contact-box, .password-box{
+    display: flex;
+    gap: 3.5rem;
+    margin-bottom: 1.5rem;
+    margin-left: 3rem; 
+}
+
+input{
+    width: 20rem;
+    height: 1.8rem;
+    border-radius: 5px;
+    background: none;
+	color: inherit;
+	border: 0.5px rgb(229, 231, 235) solid;
+	font: inherit;
+	outline: inherit;
+   
+    
+}
+
+.button-box{
+    margin-top: 4rem;
+    background-color:rgb(249, 250, 251); 
+    padding-top: 3rem;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+
+.question{
+    margin-top: 2rem;
+}
+button, .question{
+    margin-left: 3rem;
+}
+
+button{
+    background-color: #596D48;
+    color: white;
+    border: none;
+    padding: 1.2rem 3rem;
+    font-size: 0.9rem;
+    font-weight: 900;
+    border-radius: 15px;
+}
+a{
+    color: #596D48;
+    text-decoration: none;
 }
 
