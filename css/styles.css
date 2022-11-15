@@ -77,11 +77,8 @@ input{
     width: 20rem;
     height: 1.8rem;
     border-radius: 5px;
-    background: none;
-	color: inherit;
 	border: 0.5px rgb(229, 231, 235) solid;
-	font: inherit;
-	outline: inherit;
+	
    
     
 }
