@@ -1,42 +1,44 @@
-body{
+body {
     margin: 0px;
     font-family: sonoFont;
-    
-    
-}
-.container{
-    display: flex;
-    
+
+
 }
 
-.left-box{
-    background: url('../images/parrot.jpg') ;
+.container {
+    display: flex;
+}
+
+.left-box {
+    background: url('../images/parrot.jpg');
     background-repeat: no-repeat;
-    background-size: cover;  
+    background-size: cover;
     width: 33.33%;
     height: auto;
 }
-.text{
+
+.text {
     margin-bottom: 2rem;
-    
+
 }
 
-.text, .text1{
+.text,
+.text1 {
     font-size: 1.6rem;
     line-height: 2.9rem;
     font-weight: 600;
     margin-left: 3rem;
 }
 
-.text1{
+.text1 {
     margin-top: 2rem;
 }
 
-.form{
+.form {
     margin-top: 3rem;
 }
 
-.logo{
+.logo {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -49,42 +51,45 @@ body{
     font-weight: 800;
     font-style: italic;
 }
-.right-box{
-    width: 66.66%;   
-     
+
+.right-box {
+    width: 66.66%;
+
 }
-.header{
+
+.header {
     background-color: rgb(249, 250, 251);
     width: 100%;
     padding-top: 10.2rem;
     box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     padding-bottom: 2rem;
-   
 }
 
-form{
-    color:rgb(87, 94, 105);
+form {
+    color: rgb(87, 94, 105);
     font-size: 0.8rem;
 
-    
+
 }
 
-.name-box, .contact-box, .password-box{
+.name-box,
+.contact-box,
+.password-box {
     display: flex;
     gap: 3.5rem;
     margin-bottom: 1.5rem;
-    margin-left: 3rem; 
+    margin-left: 3rem;
 }
 
-input{
+input {
     width: 20rem;
     height: 1.8rem;
     border-radius: 5px;
-	border: 0.5px rgb(229, 231, 235) solid;
+    border: 0.5px rgb(229, 231, 235) solid;
 }
 
 
-input:focus{
+input:focus {
     outline: none !important;
     border: 1px rgb(29, 78, 216) solid;
     box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
@@ -95,23 +100,25 @@ input:invalid:not(:focus):not(:placeholder-shown):not(:valid) {
 }
 
 
-.button-box{
+.button-box {
     margin-top: 4rem;
-    background-color:rgb(249, 250, 251); 
+    background-color: rgb(249, 250, 251);
     padding-top: 3rem;
     box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 
-.question{
+.question {
     margin-top: 2rem;
     padding-bottom: 3rem;
     font-size: 1rem;
 }
-button, .question{
+
+button,
+.question {
     margin-left: 3rem;
 }
 
-button{
+button {
     background-color: #596D48;
     color: white;
     border: none;
@@ -121,12 +128,12 @@ button{
     border-radius: 15px;
     cursor: pointer;
 }
-    button:hover {
-        opacity: 0.5;
 
-    
+button:hover {
+    opacity: 0.5;
 }
-a{
+
+a {
     color: #596D48;
     text-decoration: none;
     font-size: 1rem;
@@ -136,4 +143,3 @@ a{
     font-family: sonoFont;
     src: url(/repos/sign-up-form/Sono/static/Sono/Sono-ExtraLight.ttf);
 }
-
