@@ -10,7 +10,7 @@ body{
 }
 
 .left-box{
-    background: url('../parrot.jpg') ;
+    background: url('../images/parrot.jpg') ;
     background-repeat: no-repeat;
     background-size: cover;  
     width: 33.33%;
