@@ -14,6 +14,5 @@ This is a simple sign-up form built using HTML, CSS, and JavaScript. The form us
 - Google Fonts (for external fonts)
 ## I learned
 - Using external fonts in a web project
-- Implementing form validation in JavaScript
 - Styling a form using CSS
 - Handling user input with event listeners
