@@ -1,8 +1,8 @@
 # Project Title
-Sign-up Form with External Fonts
+Sign-up Form with External Fonts.
 
 ## Description
-This is a simple sign-up form built using HTML, CSS, and JavaScript. The form uses external fonts to create an attractive and unique user interface. [Here](https://gilsabo.github.io/sign-up-form/) you can check out the project
+This is a sign-up form built using HTML, CSS, and JavaScript. The form uses external fonts to create an attractive and unique user interface. [Here](https://gilsabo.github.io/sign-up-form/) you can check out the project
 ## Features
 - User can enter their name, email, and password to sign up
 - Form validation ensures that all fields are filled out and the password meets the minimum requirements
